@@ -2,7 +2,7 @@
 This is my test assignment to CodeBridge.
 
 # Short Description
-Project architecture was written by using onion architecture. For exception handling was used global exception handling middleware and for validation - FluentValidation nuget. To make flexible database seeding I decided to use FluentAPI. For pagination and sorting I used specification pattern but changed it a bit for convenience. Here specification is not predefined but is created by every request based on sort and paging parameters. Last, but not least are unit tests. They are written on NUnit library and cover application layer.
+Project architecture was written by using onion architecture. For exception handling was used global exception handling middleware and for request per second limiting out of the box solition .net7 AddRateLimiter. For validation - FluentValidation nuget. To make flexible database seeding I decided to use FluentAPI. For pagination and sorting I used specification pattern but changed it a bit for convenience. Here specification is not predefined but is created by every request based on sort and paging parameters. Last, but not least are unit tests. They are written on NUnit library and cover application layer.
 
 I wrote some step-by-step guide how to setup project
 # How to launch project
